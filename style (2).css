@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12 50 px;
+    height: 30 px;
+    align-items: center;
+    
+}
+li {
+    list-style: none;
+    color: rgba(4, 94, 86, 0.986);
+    font-weight: bold;
+    font-size: 20px;
+}
+.row {
+    display: flex;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    flex: 1;
+    padding: 20px;
+}
+.menu {
+    flex: 3;
+    display: flex;
+}
+.menu > li {
+    padding: 0 30px;
+}
+.others{
+    flex: 1;
+    display: flex;
+}
+.others > li {
+   padding: 0 12px;
+}
+.others > li:first-child {
+    position: relative;
+ }
+.others > li:first-child input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #3839;
+ }
+ .others > li:first-child i {
+    position: absolute;
+    right: 10px;
+ }
+/*Nhi*/
+body,
+html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(170, 154, 154, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/1462892/pexels-photo-1462892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+ /* part-content */
+ .part-content {
+    margin-bottom: auto;
+ }
+ .part-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  }
+ .part-content-item h2 {
+    color: rgb(4, 83, 107);
+ }
+ .part-content-item button {
+    background-color: darkcyan;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+    border-color: aliceblue;
+ }
+ .part-content-item {
+    text-align: center;
+    margin: 0;
+    align-items: center;
+ }
+ .part-content-item img {
+    width: 530px;
+    height: 350px;
+    padding: 10px;    
+    align-items: center;
+ }
+ img.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+ }
+
+/* place1-content */
+.place1-content {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+.place1-content {
+    margin:auto;
+ }
+ .place1-content-item h2 {
+    color: rgb(4, 83, 107);
+ }
+ .place1-content-item button {
+    background-color: darkcyan;
+    color: white;
+    border-radius: 6px;
+    border-color: aliceblue;
+ }
+    
+ .place1-content-item {
+    text-align: center;
+    margin: 0px;
+ }
+ .place1-content-item img {
+    width: 530px;
+    height: 350px;
+    padding: 10px;    
+    align-items: center;
+ }
+ img.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+ }
+
+/* place2-content */
+.place2-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  }
+.place2-content {
+    margin-bottom: auto;
+ }
+ .place2-content-tilte {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+ }
+ .place2-content-tilte p {
+    font-family: var(--main-text-font);
+    font-size: 50px;
+    font-weight: bold;
+    color: #1000;
+    text-align: center;
+ }
+ .place2-content-item h2 {
+    color: rgb(4, 83, 107);
+ }
+ .place2-content-item button {
+    background-color: darkcyan;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+    border-color: aliceblue;
+ }
+ .place2-content-item {
+    text-align: center;
+    margin: 0px;
+ }
+ .place2-content-item img {
+    width: 530px;
+    height: 350px;
+    padding: 10px;    
+    align-items: center;
+ }
+ img.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+ }
+
+ /*footer*/
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  footer {
+    background-color: #10aaa2;
+  }
+  .footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+  }
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+  }
+  .socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .socialIcons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0, 9;
+  }
+  /* Hover affect on social media icon */
+  .socialIcons a:hover {
+    background-color: #02271e;
+    transition: 0.5s;
+  }
+  .socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+  }
+  .footerNav {
+    margin: 30px 0;
+  }
+  .footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  .footerNav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+  .footerNav ul li a:hover {
+    opacity: 1;
+  }
+  .footerBottom {
+    background-color: rgb(3, 49, 49);
+    padding: 20px;
+    text-align: center;
+  }
+  .footerBottom p {
+    color: white;
+  }
+  .designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+  }
+  @media (max-width: 700px) {
+    .footerNav ul {
+      flex-direction: column;
+    }
+    .footerNav ul li {
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+    }
+    .socialIcons a {
+      padding: 8px;
+      margin: 4px;
+    }
+  }
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+
+}
